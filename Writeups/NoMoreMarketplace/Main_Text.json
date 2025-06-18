@@ -1,0 +1,92 @@
+{
+  "name": "Reddit Extension",
+  "title": "NZ's #1 Chrome Extension (Briefly)",
+  "subtitle": "A viral Chrome Extension that reached Reddit’s front page and topped New Zealand’s charts—for a day.",
+  "heroImage": "/assets/heroImages/reddit_extension.png",
+  "heroLinks": [
+    {
+      "title": "Reddit Post",
+      "type": "Community",
+      "to": "https://reddit.com/your-viral-post"
+    },
+    {
+      "title": "GitHub",
+      "type": "Code",
+      "to": "https://github.com/yourusername/extension-repo"
+    },
+    {
+      "title": "Chrome Web Store",
+      "type": "Web Store",
+      "to": "https://chrome.google.com/webstore/detail/your-extension-id"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Introduction",
+      "type": "text",
+      "boost": true,
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "This Chrome Extension briefly became New Zealand's most downloaded extension after hitting Reddit's front page. It solved a small but widespread issue with a major retailer’s site, gaining attention for its simplicity and usefulness."
+        },
+        {
+          "type": "highlight",
+          "text": "Key achievement: Thousands of installs in a day after viral Reddit traction."
+        }
+      ]
+    },
+    {
+      "name": "Extension in Action",
+      "type": "text",
+      "items": [
+        {
+          "type": "image",
+          "src": "/assets/images/reddit_extension/popup_ui.png",
+          "alt": "Extension in action"
+        },
+        {
+          "type": "pills",
+          "pills": ["JavaScript", "Manifest V3", "Chrome Extension", "Lightweight GUI"]
+        }
+      ]
+    },
+    {
+      "name": "Development and Features",
+      "type": "text",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "The extension was built using JavaScript and Chrome's Manifest V3. It included a lightweight GUI popup designed for quick interaction, and required no configuration."
+        },
+        {
+          "type": "paragraph",
+          "text": "The extension addressed a temporary failure in a retailer's site, offering a workaround that users could apply instantly. It surged in popularity due to a Reddit post, after which it rapidly climbed the rankings on the NZ Chrome Web Store."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/reddit_extension/reddit_post.png",
+          "alt": "Reddit post screenshot"
+        }
+      ]
+    },
+    {
+      "name": "Deprecation",
+      "type": "text",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "After the retailer fixed their website, the need for the extension vanished. As such, it was deprecated and eventually removed from the Web Store. Despite its short lifespan, the project served as a fun and impactful example of rapid prototyping and user-driven problem solving."
+        },
+        {
+          "type": "highlight",
+          "text": "The extension was deprecated after the retailer resolved their issue—mission accomplished!"
+        }
+      ]
+    }
+  ],
+  "link": {
+    "text": "Check out the source on GitHub",
+    "url": "https://github.com/yourusername/extension-repo"
+  }
+}
