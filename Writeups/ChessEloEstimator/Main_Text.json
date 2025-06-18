@@ -1,0 +1,35 @@
+{
+  "name": "chessEloEstimator",
+  "title": "Chess ELO Estimator",
+  "subtitle": "LTSM, NN and CNN based models for estimating Chess ELO ratings from the lichess database",
+  "heroImage": "string (URL or path)",
+  "heroLinks": [
+    {
+      "title": "string",
+      "type": "string (e.g., Article, Code)",
+      "to": "string (URL or path)"
+    }
+  ],
+  "sections": [
+    {
+      "name": "string",
+      "type": "string (e.g., text)",
+      "boost": "boolean (optional)",
+      "items": [
+        {
+          "type": "string (e.g., paragraph, image, pills, highlight, link)",
+          "text": "string (only for paragraph, highlight, link)",
+          "src": "string (URL, only for image)",
+          "alt": "string (only for image)",
+          "pills": ["string", "..."],         
+          "label": "string (only for type: 'link')",
+          "to": "string (only for type: 'link')"
+        }
+      ]
+    }
+  ],
+  "link": {
+    "text": "string",
+    "url": "string"
+  }
+}
