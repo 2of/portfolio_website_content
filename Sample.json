@@ -81,14 +81,20 @@
       ]
     },
     {
-  "type": "sequence",
-  "steps": [
-    "Import the PGN files.",
-    "Preprocess move counts into one-hot vectors.",
-    "Feed sequences into LSTM layers.",
-    "Estimate ELO from final state vector."
-  ]
-}
+      "name": "Sequence Section",
+      "type": "sequence",
+      "items": [
+        {
+          "type": "sequence",
+          "steps": [
+            "Import the PGN files.",
+            "Preprocess move counts into one-hot vectors.",
+            "Feed sequences into LSTM layers.",
+            "Estimate ELO from final state vector."
+          ]
+        }
+      ]
+    }
   ],
   "link": {
     "text": "Back to projects",
