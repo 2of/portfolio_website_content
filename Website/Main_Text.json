@@ -1,0 +1,103 @@
+{
+  "name": "personalSite",
+  "title": "This Website",
+  "subtitle": "The portfolio you're looking at right now — made from scratch, no fancy libraries, just code and patience.",
+  "heroImage": "/assets/images/undraw-dev.svg",
+  "heroLinks": [
+    {
+      "title": "Source Code",
+      "type": "Code",
+      "to": "https://github.com/your-username/your-portfolio"
+    },
+    {
+      "title": "Article Content Repo",
+      "type": "Code",
+      "to": "https://github.com/your-username/your-portfolio-content"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "type": "text",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "This website counts as a project — there’s actually quite a bit to it. It’s not just a static page with some links. There’s a small (but mighty) custom UI library, context-driven global state, and even dynamic routing and rendering for markdown-based article content fetched from another repo."
+        }
+      ]
+    },
+    {
+      "name": "Highlight",
+      "type": "text",
+      "items": [
+        {
+          "type": "highlight",
+          "text": "Every part of the layout is custom-built. Routing, themes, overlays, and data-driven rendering all work with minimal dependencies."
+        }
+      ]
+    },
+    {
+      "name": "Tech Stack",
+      "type": "tags",
+      "items": [
+        {
+          "type": "pills",
+          "pills": ["React", "SCSS", "JavaScript", "GitHub Pages", "React Router", "Custom Contexts", "React Portals", "JSX", "Markdown", "Responsive Design"]
+        }
+      ]
+    },
+    {
+      "name": "Renderer Schema",
+      "type": "code",
+      "items": [
+        {
+          "type": "code",
+          "language": "json",
+          "content": "{\n  \"name\": \"string\",\n  \"title\": \"string\",\n  \"subtitle\": \"string\",\n  \"heroImage\": \"string (URL or path)\",\n  \"heroLinks\": [\n    {\n      \"title\": \"string\",\n      \"type\": \"string (e.g., Article, Code)\",\n      \"to\": \"string (URL or path)\"\n    }\n  ],\n  \"sections\": [\n    {\n      \"name\": \"string\",\n      \"type\": \"string (e.g., text)\",\n      \"boost\": \"boolean (optional)\",\n      \"items\": [\n        {\n          \"type\": \"string (e.g., paragraph, image, pills, highlight, link, code, sequence)\",\n\n          \"text\": \"string (only for paragraph, highlight, link)\",\n\n          \"src\": \"string (URL, only for image)\",\n          \"alt\": \"string (only for image)\",\n\n          \"pills\": [\"string\", \"...\"],\n\n          \"label\": \"string (only for type: 'link')\",\n          \"to\": \"string (only for type: 'link')\",\n\n          \"language\": \"string (only for type: 'code', e.g., javascript, python)\",\n          \"content\": \"string (code snippet, only for type: 'code')\",\n\n          \"steps\": [\"string\", \"...\"]\n        }\n      ]\n    }\n  ],\n  \"link\": {\n    \"text\": \"string\",\n    \"url\": \"string\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "How It Works",
+      "type": "sequence",
+      "items": [
+        {
+          "type": "sequence",
+          "steps": [
+            "You land on the site — it uses React Router to determine which content to show.",
+            "Article JSON is loaded from a separate repo and parsed.",
+            "Each section in the article uses a type-to-component renderer.",
+            "Global context provides dark mode, menu handling, and a nav stack for popups.",
+            "Everything is wrapped in a responsive layout, built using SCSS and media queries."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "More Context",
+      "type": "text",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "I used unDraw for the art (I’m not an artist, sorry!). The entire app is built with React, React Router, and my own layout logic — no MUI, no Tailwind, no Bootstrap. Just styled SCSS modules and logic. Oh, and there's a hefty TODO list hiding in the repo too."
+        }
+      ]
+    },
+    {
+      "name": "Visit the Repo",
+      "type": "text",
+      "items": [
+        {
+          "type": "link",
+          "text": "Full source available here →",
+          "label": "GitHub Project",
+          "to": "https://github.com/your-username/your-portfolio"
+        }
+      ]
+    }
+  ],
+  "link": {
+    "text": "Back to projects",
+    "url": "/projects"
+  }
+}
