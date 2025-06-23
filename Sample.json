@@ -79,7 +79,16 @@
           "content": "function loremIpsum() {\n  console.log('Lorem ipsum dolor sit amet.');\n}"
         }
       ]
-    }
+    },
+    {
+  "type": "sequence",
+  "steps": [
+    "Import the PGN files.",
+    "Preprocess move counts into one-hot vectors.",
+    "Feed sequences into LSTM layers.",
+    "Estimate ELO from final state vector."
+  ]
+}
   ],
   "link": {
     "text": "Back to projects",
