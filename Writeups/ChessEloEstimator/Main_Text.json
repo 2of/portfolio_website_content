@@ -26,6 +26,31 @@
           "to": "string (only for type: 'link')"
         }
       ]
+    }, {
+      "name": "LSTM",
+      "type": "text",
+      "boost": "boolean (optional)",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "LSTMs are pretty useful for sequence info, i.e. a chess PGN. LSTMs captur dependancies between moves in sequences, We can extract the impact of early game on the midgame to correlate our Elo Estimations, Even if that is a long range dependancy...",
+
+          "src": "string (URL, only for image)",
+          "alt": "string (only for image)",
+          "pills": ["string", "..."],         
+          "label": "string (only for type: 'link')",
+          "to": "string (only for type: 'link')"
+        },{
+          "type": "paragraph",
+          "text": "LSTMs are pretty useful for sequence info, i.e. a chess PGN. LSTMs captur dependancies between moves in sequences, We can extract the impact of early game on the midgame to correlate our Elo Estimations, Even if that is a long range dependancy...",
+          
+          "src": "string (URL, only for image)",
+          "alt": "string (only for image)",
+          "pills": ["string", "..."],         
+          "label": "string (only for type: 'link')",
+          "to": "string (only for type: 'link')"
+        }
+      ]
     }
   ],
   "link": {

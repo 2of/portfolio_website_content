@@ -17,13 +17,24 @@
       "boost": "boolean (optional)",
       "items": [
         {
-          "type": "string (e.g., paragraph, image, pills, highlight, link)",
+          "type": "string (e.g., paragraph, image, pills, highlight, link, code)",
+
+  
           "text": "string (only for paragraph, highlight, link)",
+
+
           "src": "string (URL, only for image)",
           "alt": "string (only for image)",
-          "pills": ["string", "..."],        
+
+          "pills": ["string", "..."],
+
+
           "label": "string (only for type: 'link')",
-          "to": "string (only for type: 'link')"
+          "to": "string (only for type: 'link')",
+
+
+          "language": "string (only for type: 'code', e.g., javascript, python)",
+          "content": "string (code snippet, only for type: 'code')"
         }
       ]
     }

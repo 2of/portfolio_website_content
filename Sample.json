@@ -1,0 +1,88 @@
+{
+  "name": "exampleProject",
+  "title": "Example Project",
+  "subtitle": "A demonstration of all supported content types.",
+  "heroImage": "/assets/images/example-hero.png",
+  "heroLinks": [
+    {
+      "title": "View Article",
+      "type": "Article",
+      "to": "/articles/example"
+    },
+    {
+      "title": "Source Code",
+      "type": "Code",
+      "to": "https://github.com/example/project"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Paragraph Section",
+      "type": "text",
+      "items": [
+        {
+          "type": "paragraph",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum."
+        }
+      ]
+    },
+    {
+      "name": "Image Section",
+      "type": "media",
+      "items": [
+        {
+          "type": "image",
+          "src": "/assets/images/sample-image.jpg",
+          "alt": "Sample image showing lorem ipsum context."
+        }
+      ]
+    },
+    {
+      "name": "Pills Section",
+      "type": "tags",
+      "items": [
+        {
+          "type": "pills",
+          "pills": ["Lorem", "Ipsum", "Dolor", "Sit", "Amet"]
+        }
+      ]
+    },
+    {
+      "name": "Highlight Section",
+      "type": "text",
+      "items": [
+        {
+          "type": "highlight",
+          "text": "This is a highlighted phrase meant to draw attention."
+        }
+      ]
+    },
+    {
+      "name": "Link Section",
+      "type": "text",
+      "items": [
+        {
+          "type": "link",
+          "text": "Read more about lorem ipsum here:",
+          "label": "Click Here",
+          "to": "https://example.com/lorem-ipsum"
+        }
+      ]
+    },
+    {
+      "name": "Code Section",
+      "type": "code",
+      "items": [
+        {
+          "type": "code",
+          "language": "javascript",
+          "content": "function loremIpsum() {\n  console.log('Lorem ipsum dolor sit amet.');\n}"
+        }
+      ]
+    }
+  ],
+  "link": {
+    "text": "Back to projects",
+    "url": "/projects"
+  }
+}
